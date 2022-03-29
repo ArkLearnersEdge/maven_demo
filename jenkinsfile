@@ -11,7 +11,7 @@ pipeline
 		}
      
     }
-	stage('ContinuousBuild') 
+   stage('ContinuousBuild') 
     {
 		steps
 		{
@@ -19,7 +19,7 @@ pipeline
 		}
      
     }
-	stage('ContinuousDeploy') 
+    stage('ContinuousDeploy') 
     {
 		steps
 		{
@@ -27,7 +27,7 @@ pipeline
 		}
      
     }
-	stage('ContinuousTesting') 
+    stage('ContinuousTesting') 
     {
 		steps
 		{
